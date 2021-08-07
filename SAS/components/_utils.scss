@@ -1,0 +1,18 @@
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.btn {
+  font-size: 1.8rem;
+  padding: 1rem 2.5rem;
+  border: 0;
+  outline: none;
+  border-radius: $borderradius;
+  background-color: var(--color-tertiary);
+  color: var(--color-secondary);
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  cursor: pointer;
+}
